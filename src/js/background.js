@@ -6,6 +6,6 @@ console.log(randImg);
 
 const bgImage = document.createElement("img");
 
-bgImage.src = `./src/img/${randImg}`;
+bgImage.src = `./img/${randImg}`;
 console.log(bgImage);
 document.body.appendChild(bgImage);
